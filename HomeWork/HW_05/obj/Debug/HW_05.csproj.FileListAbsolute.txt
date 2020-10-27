@@ -1,0 +1,6 @@
+E:\HomeWork\HW_05\bin\Debug\HW_05.exe.config
+E:\HomeWork\HW_05\bin\Debug\HW_05.exe
+E:\HomeWork\HW_05\bin\Debug\HW_05.pdb
+E:\HomeWork\HW_05\obj\Debug\HW_05.csprojAssemblyReference.cache
+E:\HomeWork\HW_05\obj\Debug\HW_05.exe
+E:\HomeWork\HW_05\obj\Debug\HW_05.pdb
