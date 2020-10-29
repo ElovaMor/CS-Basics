@@ -6,6 +6,7 @@
 // где m — масса тела в килограммах, 
 // h — рост в метрах
 
+using HW_06;
 using System;
 
 namespace HW_02
@@ -28,7 +29,7 @@ namespace HW_02
 			//index = weight / height* height;
 			Console.WriteLine("Спасибо! Вот результат расчёта индекса вашей массы тела: {0:F}.", index);
 
-			Console.ReadLine();
+			Methods.Pause();
 		}
 	}
 }

@@ -6,6 +6,7 @@
 б) *без использования третьей переменной. 
 */
 
+using HW_06;
 using System;
 
 namespace HW_04
@@ -34,7 +35,7 @@ namespace HW_04
 
 			Console.WriteLine("Результат обратного обмена без использования буфера: a = {0}, b = {1}.", a, b);
 
-			Console.ReadLine();
+			Methods.Pause();
 		}
 	}
 }
