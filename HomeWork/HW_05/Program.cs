@@ -6,6 +6,7 @@
 в) *Сделать задание б с использованием собственных методов (например, Print(string ms, int x, int y)
 */
 
+using HW_06;
 using System;
 
 namespace HW_05
@@ -23,8 +24,7 @@ namespace HW_05
 
 			PrintCenter(msg);
 
-			Console.ReadLine();
-
+			Methods.Pause();
 		}
 	}
 }

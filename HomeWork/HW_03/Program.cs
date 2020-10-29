@@ -11,6 +11,7 @@
 расстояния между точками в виде метода.
 */
 
+using HW_06;
 using System;
 
 namespace HW_03
@@ -46,7 +47,7 @@ namespace HW_03
 
 			Console.WriteLine("Расстояние между точками с координатами ({0}; {1}) и ({2}; {3}) равно: {4:F}.", x1, y1, x2, y2, result);
 
-			Console.ReadLine();
+			Methods.Pause();
 		}
 	}
 }

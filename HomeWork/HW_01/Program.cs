@@ -6,6 +6,7 @@
 // б) используя форматированный вывод;
 // в) используя вывод со знаком $.
 
+using HW_06;
 using System;
 
 namespace HW_01
@@ -55,8 +56,7 @@ namespace HW_01
 
 			Console.WriteLine($"\nСпасибо! Результат: \nФамилия - {surname};\n Имя - {name};\n Возраст - {a:D1};\n Рост - {h:F};\n Вес - {w:F1}.");
 
-			Console.ReadLine();
-
+			Methods.Pause();
 		}
 	}
 }
