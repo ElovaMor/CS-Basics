@@ -1,29 +1,40 @@
 ﻿/*
  * Студент: Барановва Виталина Васильевна
- * Задача 2 
+ * Задача 2.2 
  * Написать метод подсчета количества цифр числа.
-3. С клавиатуры вводятся числа, пока не будет введен 0. Подсчитать сумму всех нечетных положительных чисел.
-4. Реализовать метод проверки логина и пароля. На вход подается логин и пароль. На выходе истина, если прошел 
-авторизацию, и ложь, если не прошел (Логин: root, Password: GeekBrains). 
-Используя метод проверки логина и пароля, написать программу: 
-пользователь вводит логин и пароль, программа пропускает его дальше или не пропускает. 
-С помощью цикла do while ограничить ввод пароля тремя попытками.
 */
 
+using HW_11;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HW_12
 {
 	class Program
 	{
+		static int Quantity(int n)
+		{
+			int count = 0;
 
+			while (n != 0)
+			{
+				count ++;
+
+				n = n / 10; // так как n-целое, деление целочисленное	
+			}
+
+			return count;
+		}
 		static void Main(string[] args)
 		{
+			Console.WriteLine("Программа считает количество цифр в заданном числе. Введите число: ");
 
+			int n = int.Parse(Console.ReadLine());
+
+			int count = Quantity(n);
+
+			Console.WriteLine(count);
+
+			Methods.Pause();
 		}
 	}
 }

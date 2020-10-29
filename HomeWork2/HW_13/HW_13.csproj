@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E7BF3BAE-531C-4111-BF4C-12427EF9A33E}</ProjectGuid>
+    <ProjectGuid>{864038F8-3BDB-4580-BBEC-4543D4A58CD3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HW_11</RootNamespace>
-    <AssemblyName>HW_11</AssemblyName>
+    <RootNamespace>HW_13</RootNamespace>
+    <AssemblyName>HW_13</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Methods.cs" />
+    <Compile Include="..\HW_11\Methods.cs">
+      <Link>Methods.cs</Link>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
