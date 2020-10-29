@@ -1,0 +1,7 @@
+C:\CS-Basics\HomeWork2\HW_12\bin\Debug\HW_12.exe.config
+C:\CS-Basics\HomeWork2\HW_12\bin\Debug\HW_12.exe
+C:\CS-Basics\HomeWork2\HW_12\bin\Debug\HW_12.pdb
+C:\CS-Basics\HomeWork2\HW_12\obj\Debug\HW_12.csprojAssemblyReference.cache
+C:\CS-Basics\HomeWork2\HW_12\obj\Debug\HW_12.csproj.CoreCompileInputs.cache
+C:\CS-Basics\HomeWork2\HW_12\obj\Debug\HW_12.exe
+C:\CS-Basics\HomeWork2\HW_12\obj\Debug\HW_12.pdb

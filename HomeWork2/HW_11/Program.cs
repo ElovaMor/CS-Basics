@@ -12,9 +12,9 @@ namespace HW_11
 	{
 		static double ThirdMin(double a, double b, double c)
 		{
-			double min = a;
+			// если а больше b, то Истина: min=a : Ложь: min=b
+			double min = (a < b) ? a : b;
 
-			if (min > b) min = b;
 			if (min > c) min = c;
 
 			return min;
@@ -27,7 +27,8 @@ namespace HW_11
 			double c = Double.Parse(Console.ReadLine());
 
 			Console.WriteLine("Результат выполнения программы: " + ThirdMin(a, b, c));
-			Console.ReadLine();
+
+			Methods.Pause();
 		}
 	}
 }
